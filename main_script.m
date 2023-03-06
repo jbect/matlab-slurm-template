@@ -16,7 +16,7 @@ end
 
 %% Choice of method
 
-METHOD = getenv ('METHOD'));
+METHOD = getenv ('METHOD');
 if IGNORE_ENV || (isempty (METHOD))
     METHOD = 'GreatMethod';
 end
